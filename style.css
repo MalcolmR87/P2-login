@@ -1,0 +1,17 @@
+#Next {
+    background-color: blue;
+}
+
+#Sign {
+    background-color: darkgrey;
+}
+
+#Bottom {
+    color: black;
+    font-size: x-small;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
