@@ -1,17 +1,23 @@
 #Next {
     background-color: blue;
+    width: 100%;
 }
 
 #Sign {
     background-color: darkgrey;
+    width: 100%;
 }
 
 #Bottom {
-    color: black;
-    font-size: x-small;
+    color: rgb(69, 69, 69);
+    font-size: small;
 }
 
 body {
     display: flex;
     justify-content: center;
+    font-size: x-large;
+    border: 3.5rem solid rgb(236, 236, 236);
+    padding: 3% 9%;
+    margin: 5% 50%;
 }
