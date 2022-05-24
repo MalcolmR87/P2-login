@@ -1,23 +1,49 @@
+#logo {
+    margin-left: 130px;
+}
+
+#email {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 96%;
+    height: 30px;
+
+}
+
 #Next {
-    background-color: blue;
+    background-color: #0072c4;
+    color: white;
     width: 100%;
+    border-color: #0072c4;
+    border-radius: 50px;
+    padding: 4% 30%;
 }
 
 #Sign {
-    background-color: darkgrey;
+    background-color: white;
+    color: #0072c4;
     width: 100%;
+    border-color: #0072c4;
+    border-radius: 50px;
+    padding: 4% 30%;
 }
 
 #Bottom {
     color: rgb(69, 69, 69);
     font-size: small;
+    margin-top: 25%;
+    margin-left: 60px;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    font-size: x-large;
-    border: 3.5rem solid rgb(236, 236, 236);
-    padding: 3% 9%;
-    margin: 5% 50%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 13px;
+    padding: 3% 50px;
+    margin: 8% auto;
+    width: 320px;
+    height: 400px;
 }
