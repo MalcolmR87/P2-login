@@ -9,6 +9,7 @@
     margin-right: 10%;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: medium;
     width: 96%;
     height: 30px;
 
@@ -17,6 +18,7 @@
 #Next {
     background-color: #0072c4;
     color: white;
+    font-size: medium;
     width: 100%;
     border-color: #0072c4;
     border-radius: 50px;
@@ -26,6 +28,7 @@
 #Sign {
     background-color: white;
     color: #0072c4;
+    font-size: medium;
     width: 100%;
     border-color: #0072c4;
     border-radius: 50px;
