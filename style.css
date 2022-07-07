@@ -1,42 +1,59 @@
+body {
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 13px;
+    padding: 3% 75px 3% 50px;
+    margin: 7% auto;
+    width: 340px;
+    height: 400px;
+}
+
 #logo {
-    height: 45px;
-    margin-left: 150px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    height: 42px;
+    margin-left: 155px;
+    margin-bottom: 20px;
+    margin-top: -20px;
     
 }
 
 #email {
     padding-bottom: 7px;
-    padding-top: 7px;
-    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    padding-left: 11px;
     margin-right: 10%;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: medium;
-    width: 96%;
-    height: 30px;
+    width: 100%;
+    height: 34px;
+    border-radius: 3px;
+    border: .5px solid #706f6f;
 
 }
+
+#Next:hover{background-color: #003087;} #Sign:hover{border: 2px solid #003087;}
 
 #Next {
     background-color: #0072c4;
     color: white;
     font-size: medium;
-    width: 100%;
-    border-color: #0072c4;
+    font-weight: bold;
+    width: 360px;
+    border:none;
     border-radius: 50px;
-    padding: 4% 30%;
+    padding: 4.5% 32.5%;
 }
 
 #Sign {
     background-color: white;
     color: #0072c4;
     font-size: medium;
-    width: 100%;
-    border-color: #0072c4;
+    font-weight: bold;
+    width: 360px;
+    border: 1px solid #0072c4;
     border-radius: 50px;
-    padding: 4% 30%;
+    padding: 4.5% 30.5%;
+    margin-right: 9%;
 }
 
 #Bottom {
@@ -46,21 +63,16 @@
     margin-left: 60px;
 }
 
+#country-selector{border-style: none; }
+
 #Bottom a {
     color: #666666;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-small;
 }
 
 #Bottom a:hover {
     text-decoration: underline;
-}
-
-body {
-    border: 1px solid rgb(236, 236, 236);
-    border-radius: 13px;
-    padding: 3% 50px;
-    margin: 7% auto;
-    width: 340px;
-    height: 400px;
 }
